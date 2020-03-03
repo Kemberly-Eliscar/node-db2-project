@@ -16,10 +16,10 @@ exports.up = function(knex, Promise) {
       tbl.decimal('mileage').notNullable();
 
       // creates a text field called transmission type which is NOT required
-      tbl.text('Transmission Type');
+      tbl.text('Transmission');
 
         // creates a text field called title status which is NOT required
-      tbl.text('title status');
+      tbl.text('title');
     });
   };
   
